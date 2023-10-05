@@ -1370,7 +1370,7 @@ textarea::placeholder {
     align-items: center;
   }
   .services-section-2-element {
-    margin-top: 10rem;
+    margin-top: 5rem;
   }
   .services-section-2-img {
     width: 100%;
@@ -1438,6 +1438,9 @@ textarea::placeholder {
 }
 
 @media only screen and (max-width: 780px) {
+  .services-section-1 h1 {
+    font-size: 2.5rem;
+  }
   .form-container-grid {
     grid-template-columns: 1fr;
   }
@@ -1472,14 +1475,31 @@ textarea::placeholder {
     padding-right: 1rem;
   }
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 650px) {
   .members-container {
-    width: 200px;
-    height: 320px;
+    width: 260px;
+  }
+  .company-member-image-container {
+    width: 260px;
+    height: 269px;
   }
 }
 
 @media only screen and (max-width: 600px) {
+  .our-company-section-5 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .members-container {
+    width: 220px;
+  }
+  .company-member-image-container {
+    width: 220px;
+    height: 228px;
+  }
+  .services-section-1 h1 {
+    font-size: 2rem;
+  }
   .popup_active {
     padding: 2rem;
   }
@@ -1512,6 +1532,16 @@ textarea::placeholder {
 }
 
 @media only screen and (max-width: 500px) {
+  .company-member-image-container {
+    width: 280px;
+    height: 290px;
+  }
+  .services-section-2-intro {
+    line-height: 30px;
+  }
+  .section-2-container {
+    padding-top: 4.5rem;
+  }
   header {
     padding-left: 2rem !important;
     padding-right: 2rem !important;
@@ -1670,5 +1700,8 @@ textarea::placeholder {
   .popup-container p {
     font-size: 12px !important;
     line-height: 16px !important;
+  }
+  .section-5-container p {
+    line-height: 18px;
   }
 }
