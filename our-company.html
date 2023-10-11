@@ -281,9 +281,51 @@
           <div class="our-company-members">
             <div>
               <div class="members-container">
-                <div class="popup">
+                <div class="popup popup-0">
                   <div class="popup-container">
-                    <div class="popup-x" onclick="close_popup()">
+                    <div class="popup-x" onclick="close_popup(0)">
+                      <i class="fa-light fa-xmark" style="color: #202020"></i>
+                    </div>
+                    <div class="name">Panagiotis Chionas</div>
+                    <div class="role">Senior Associate</div>
+                    <p>
+                      Panagiotis brings significant underwriting, advisory and
+                      financial modelling expertise to Atlas. Prior to joining
+                      Atlas, he led large underwriting projects of NPL
+                      portfolios in Greece and Cyprus. Panagiotis started his
+                      career in IT software and business development. Having
+                      operated in the MENA region, he brings an international
+                      perspective and best practices from other industries to
+                      our business. Panagiotis holds a Bachelor’s Degree in
+                      International Relations from the University of the Aegean
+                      and is a CFA® charterholder.
+                    </p>
+                  </div>
+                </div>
+                <div class="our-company-team-img">
+                  <div class="corner-1"></div>
+                  <div class="corner-2"></div>
+                  <div class="corner-3"></div>
+                  <div class="corner-4"></div>
+                  <div class="company-member-image-container">
+                    <img src="./images/Members-photo.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="name">Panagiotis Chionas</div>
+                <div class="role">Senior Associate</div>
+                <div onclick="open_popup(0)" class="plus">
+                  <i
+                    class="fa-sharp fa-light fa-plus"
+                    style="color: #b20931"
+                  ></i>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="members-container">
+                <div class="popup popup-1">
+                  <div class="popup-container">
+                    <div class="popup-x" onclick="close_popup(1)">
                       <i class="fa-light fa-xmark" style="color: #202020"></i>
                     </div>
                     <div class="name">George Tingis</div>
@@ -309,17 +351,17 @@
                   </div>
                 </div>
                 <div class="our-company-team-img">
-                  <!-- <div class="corner-1"></div>
+                  <div class="corner-1"></div>
                   <div class="corner-2"></div>
                   <div class="corner-3"></div>
-                  <div class="corner-4"></div> -->
+                  <div class="corner-4"></div>
                   <div class="company-member-image-container">
                     <img src="./images/Members-photo.jpg" alt="" />
                   </div>
                 </div>
                 <div class="name">George Tingis</div>
                 <div class="role">Managing Director</div>
-                <div onclick="open_popup()" class="plus">
+                <div onclick="open_popup(1)" class="plus">
                   <i
                     class="fa-sharp fa-light fa-plus"
                     style="color: #b20931"
@@ -327,8 +369,38 @@
                 </div>
               </div>
             </div>
+
             <div>
               <div class="members-container">
+                <div class="popup popup-2">
+                  <div class="popup-container">
+                    <div class="popup-x" onclick="close_popup(2)">
+                      <i class="fa-light fa-xmark" style="color: #202020"></i>
+                    </div>
+                    <div class="name">Vasileios Gkionis</div>
+                    <div class="role">Head of Asset Management</div>
+                    <p>
+                      As Head of Asset Management, Vasileios has overall
+                      responsibility for the performance of all assets under
+                      management, including development projects. Vasileios is a
+                      civil engineer with over 15 years of experience in real
+                      estate development, valuation, and asset management. He
+                      has worked with the largest financial institutions in
+                      Greece and founded a development company specializing in
+                      residential projects. Vasileios holds a Bachelor of
+                      Science in Civil Engineering from Democritus University of
+                      Thrace. He is a member of several professional
+                      organizations including the Technical Chamber of Greece
+                      (TEE), the Hellenic Society of Civil Engineers, the
+                      Hellenic Society of Appraisers (SEKE), the Hellenic
+                      Institute of Evaluation (ELIE) and the Institute of Zero
+                      Energy Buildings (INZEB). Vasileios is also a Certified
+                      Real Estate Appraiser Recognized European Valuer – TEGoVA
+                      and Certified DGNB Auditor by the German Sustainable
+                      Building Council.
+                    </p>
+                  </div>
+                </div>
                 <div class="our-company-team-img">
                   <div class="corner-1"></div>
                   <div class="corner-2"></div>
@@ -340,7 +412,7 @@
                 </div>
                 <div class="name">Vasileios Gkonis</div>
                 <div class="role">Head of Asset Management</div>
-                <div class="plus">
+                <div onclick="open_popup(2)" class="plus">
                   <i
                     class="fa-sharp fa-light fa-plus"
                     style="color: #b20931"
@@ -350,6 +422,28 @@
             </div>
             <div>
               <div class="members-container">
+                <div class="popup popup-3">
+                  <div class="popup-container">
+                    <div class="popup-x" onclick="close_popup(3)">
+                      <i class="fa-light fa-xmark" style="color: #202020"></i>
+                    </div>
+                    <div class="name">Sofia Iatridi</div>
+                    <div class="role">Asset Manager</div>
+                    <p>
+                      Sofia is a qualified engineer with experience in real
+                      estate consultancy, asset management and valuations. Prior
+                      to joining Atlas, Sofia was part of the Asset Management
+                      team (REO) of National Bank of Greece (NBG), focusing on
+                      portfolio management and reporting, leasing management,
+                      and taking charge of the assets’ maturation process. Sofia
+                      holds a BSc in Rural and Surveyor Engineering from the
+                      National Technical University of Athens and an MSc in
+                      International Real Estate and Planning from University
+                      College of London (UCL). She is also a member of the
+                      Technical Chamber of Greece (TEE).
+                    </p>
+                  </div>
+                </div>
                 <div class="our-company-team-img">
                   <div class="corner-1"></div>
                   <div class="corner-2"></div>
@@ -361,7 +455,7 @@
                 </div>
                 <div class="name">Sofia Iatridi</div>
                 <div class="role">Asset Manager</div>
-                <div class="plus">
+                <div onclick="open_popup(3)" class="plus">
                   <i
                     class="fa-sharp fa-light fa-plus"
                     style="color: #b20931"
@@ -371,6 +465,26 @@
             </div>
             <div>
               <div class="members-container">
+                <div class="popup popup-4">
+                  <div class="popup-container">
+                    <div class="popup-x" onclick="close_popup(4)">
+                      <i class="fa-light fa-xmark" style="color: #202020"></i>
+                    </div>
+                    <div class="name">Tang Leng Lee</div>
+                    <div class="role">Director</div>
+                    <p>
+                      Tang Leng is responsible for portfolio management and
+                      operations at Atlas. Tang Leng brings extensive experience
+                      in institutional fund management and portfolio
+                      optimisation through pan-European roles with Janus
+                      Henderson, Hammerson, HSBC, and Cushman & Wakefield. Tang
+                      Leng began her career in the UK with Colliers. She
+                      graduated from Reading University with a BSc (Honours) in
+                      Land Management, has the Investment Management Certificate
+                      and is MRICS-qualified.
+                    </p>
+                  </div>
+                </div>
                 <div class="our-company-team-img">
                   <div class="corner-1"></div>
                   <div class="corner-2"></div>
@@ -382,7 +496,7 @@
                 </div>
                 <div class="name">Tang Leng Lee</div>
                 <div class="role">Director</div>
-                <div class="plus">
+                <div onclick="open_popup(4)" class="plus">
                   <i
                     class="fa-sharp fa-light fa-plus"
                     style="color: #b20931"
@@ -392,6 +506,28 @@
             </div>
             <div>
               <div class="members-container">
+                <div class="popup popup-5">
+                  <div class="popup-container">
+                    <div class="popup-x" onclick="close_popup(5)">
+                      <i class="fa-light fa-xmark" style="color: #202020"></i>
+                    </div>
+                    <div class="name">Loukia Pesketzi</div>
+                    <div class="role">Head of Legal</div>
+                    <p>
+                      Loukia is Head of Legal at Atlas and is responsible for
+                      all legal matters regarding property acquisitions,
+                      disposals, financing, corporate governance, and strategic
+                      planning. Loukia has extensive experience in real estate,
+                      civil and corporate law, having served as legal counsel
+                      and corporate secretary in REICS and coordinator of REO
+                      sales at the National Bank of Greece. Loukia is also well
+                      versed in e-auction proceedings and enforcement law.
+                      Loukia has been a member of Athens Bar for over ten years
+                      and holds a LLB degree from the Law School of the National
+                      and Kapodistrian University of Athens.
+                    </p>
+                  </div>
+                </div>
                 <div class="our-company-team-img">
                   <div class="corner-1"></div>
                   <div class="corner-2"></div>
@@ -403,7 +539,7 @@
                 </div>
                 <div class="name">Loukia Pesketzi</div>
                 <div class="role">Head of Legal</div>
-                <div class="plus">
+                <div onclick="open_popup(5)" class="plus">
                   <i
                     class="fa-sharp fa-light fa-plus"
                     style="color: #b20931"
@@ -413,6 +549,23 @@
             </div>
             <div>
               <div class="members-container">
+                <div class="popup popup-6">
+                  <div class="popup-container">
+                    <div class="popup-x" onclick="close_popup(6)">
+                      <i class="fa-light fa-xmark" style="color: #202020"></i>
+                    </div>
+                    <div class="name">Vasiliki Skiada</div>
+                    <div class="role">Accountant</div>
+                    <p>
+                      Vasiliki is responsible for the day-to-day management
+                      accounting, cash management, payments and financial
+                      reporting for all the client entities. Prior to Atlas,
+                      Vasiliki held similar roles for two Greek multinational
+                      companies. Vasiliki holds a BSc in Economics and an MBA
+                      from the University of Pireaus.
+                    </p>
+                  </div>
+                </div>
                 <div class="our-company-team-img">
                   <div class="corner-1"></div>
                   <div class="corner-2"></div>
@@ -424,7 +577,7 @@
                 </div>
                 <div class="name">Vasiliki Skiada</div>
                 <div class="role">Accountant</div>
-                <div class="plus">
+                <div onclick="open_popup(6)" class="plus">
                   <i
                     class="fa-sharp fa-light fa-plus"
                     style="color: #b20931"

@@ -24,11 +24,13 @@ window.onload = () => {
     }
   }
 };
-function open_popup() {
-  document.querySelector(".popup").classList.toggle("popup_active");
+function open_popup(popupNumber) {
+  const popup = document.querySelector(`.popup-${popupNumber}`);
+  popup.classList.toggle("popup_active");
   document.body.classList.toggle("body-stop");
 }
-function close_popup() {
-  document.querySelector(".popup").classList.remove("popup_active");
+function close_popup(popupNumber) {
+  const popup = document.querySelector(`.popup-${popupNumber}`);
+  popup.classList.remove("popup_active");
   document.body.classList.remove("body-stop");
 }
